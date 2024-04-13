@@ -10,8 +10,8 @@ COPY . /app
 # Install any needed packages specified in requirements.txt
 RUN pip install Flask yfinance
 
-# Make port 5000 available to the world outside this container
-EXPOSE 5000
+# Make port 4080 available to the world outside this container
+EXPOSE 4080
 
 # Define environment variable
 ENV NAME World
